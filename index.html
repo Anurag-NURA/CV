@@ -1,0 +1,140 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>About Me</title>
+        <style>
+            *{
+                font-size: 25px;
+            }
+            #Me{
+                height: 350px;
+                clip-path: circle(50% at 50% 50%);
+            }
+        </style>
+    </head>
+
+    <body>
+        <table cellspacing="30px" cellpadding="0px">
+            <tr>
+                <td><img src="Me.jpg" id="Me" alt=""></td>
+                <td align="left">
+                        <h1 style="font-size: 55px;">Anurag Rawat</h1>
+                        <p><em>Founder and CEO of Opinion's server</em></p>
+                        <p>Web developer,</p>
+                        <p>Programmer,</p> 
+                        <p>and a part-time gamer 🎮</p>
+                </td>
+            </tr>
+        </table> 
+        
+        <hr>
+
+        <h1>About Me</h1>
+        <p>My name is <em>Anurag Rawat</em></p>
+        <p>I am Full-Stack <em>Web-Developer</em></p>
+        <p>I also know some programming languages like 
+           C, C++, Java, JavaScript and Visual Basic. 
+        </p>
+
+        <hr>
+
+        <h1>Educational Qualification</h1>
+
+        <ol>
+            <li>High school
+                <ul type="disc">
+                    <li>DAV Public School</li>
+                </ul>
+            </li>
+            <li>Intermediate school
+                <ul type="disc">
+                    <li>Delhi International School (Non-Medical Stream)</li>
+                </ul>
+            </li>
+            <li>College
+                <ul type="disc">
+                    <li>IITM, Janakpuri (GGSIPU Affiliated) </li>
+                </ul>
+            </li>
+        </ol>
+
+        <hr>
+
+        <h1>Skills</h1>
+        <table cellspacing="20px">
+            <thead>
+                <tr>
+                    <th align="left">Language</th>
+                    <th>Rating(Out of 5 star)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Java</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+
+                <tr>
+                    <td>C</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+
+                <tr>
+                    <td>C++</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+
+                <tr>
+                    <td>Visual Basic</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h1>Feedback</h1>
+        <form>
+            <table border="solid" cellspacing="0px" cellpadding="10px">
+                <thead>
+                    <th colspan="2">Feedback Form</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><label for="Name">Your Name: </label></td>
+                        <td><input type="text" name="userName" id="Uname"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Email">Your Email: </label></td>
+                        <td><input type="email" name="userEmail" id="UEmail"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Password">Your Password</label></td>
+                        <td><input type="password" name="userPassword" id="Upassword"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Feedback">Feedback</label></td>
+                        <td><textarea name="userFeedback" id="Ufeedback" cols="30" rows="10"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="Rating">Give Rating</label></td>
+                        <td><input type="range" name="userRating" id="Urating"></td>
+                    </tr>
+                </tbody>
+            </table>            
+        </form>
+
+        <button>Submit Now</button>
+    </body>
+</html>
